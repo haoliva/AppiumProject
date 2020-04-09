@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CertificationTestSuite" duration-ms="131339" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:22:45 EDT">
+    <groups>
+    </groups>
+    <test name="Mobile Tests" duration-ms="131339" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:22:45 EDT">
+      <class name="com.edureka.masterProject.SearchUsingImage">
+        <test-method status="PASS" signature="def()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="def" is-config="true" duration-ms="60452" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:21:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- def -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="login" duration-ms="20121" started-at="2020-04-09T14:21:34 EDT" finished-at="2020-04-09T14:21:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="copyImage()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="copyImage" duration-ms="5436" started-at="2020-04-09T14:21:54 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.login" finished-at="2020-04-09T14:21:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyImage -->
+        <test-method status="PASS" signature="uploadJpgAndSearch()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="uploadJpgAndSearch" duration-ms="13555" started-at="2020-04-09T14:21:59 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.copyImage" finished-at="2020-04-09T14:22:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadJpgAndSearch -->
+        <test-method status="PASS" signature="verifySearchResult()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="verifySearchResult" duration-ms="13511" started-at="2020-04-09T14:22:13 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.uploadJpgAndSearch" finished-at="2020-04-09T14:22:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResult -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="logout" duration-ms="16302" started-at="2020-04-09T14:22:26 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.verifySearchResult" finished-at="2020-04-09T14:22:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="closeApp" is-config="true" duration-ms="1895" started-at="2020-04-09T14:22:43 EDT" finished-at="2020-04-09T14:22:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.edureka.masterProject.SearchUsingImage -->
+    </test> <!-- Mobile Tests -->
+  </suite> <!-- CertificationTestSuite -->
+</testng-results>
