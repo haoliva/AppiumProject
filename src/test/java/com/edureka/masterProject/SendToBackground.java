@@ -63,20 +63,28 @@ public class SendToBackground {
     public void checkState() { 
     	appState = ad.queryAppState("com.amazon.mShop.android.shopping"); 
     	if(appState == ApplicationState.RUNNING_IN_FOREGROUND) 
-    		{ 
-    			System.out.println("App is in Foreground"); 
-    		} 
+    	{ 
+    		System.out.println("App is in Foreground"); 
+    	} 
+    	else 
+    	{
+    		System.out.println(appState);
+    	}
     } 
     
     @Test(priority = 5) 
     public void terminate() throws InterruptedException { 
     	ad.terminateApp("10204");
-    	Thread.sleep(5000);
+    	Thread.sleep(2000);
     	appState = ad.queryAppState("com.amazon.mShop.android.shopping"); 
     	if(appState == ApplicationState.NOT_RUNNING) 
-    		{ 
-    			System.out.println("App is terminated"); 
-    		}
+    	{ 
+    		System.out.println("App is terminated"); 
+    	}
+    	else
+    	{
+    		System.out.println(appState);
+    	}
     }
 
     @AfterClass 
