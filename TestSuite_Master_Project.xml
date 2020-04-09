@@ -3,7 +3,7 @@
 <suite name="CertificationTestSuite" verbose="1" >
     <test name="Mobile Tests" >
         <classes>
-            <!-- <class name="com.edureka.masterProject.AddProductIntoCart" /> -->
+            <class name="com.edureka.masterProject.AddProductIntoCart" />
             <class name="com.edureka.masterProject.SearchUsingImage" />
         </classes>
     </test>
