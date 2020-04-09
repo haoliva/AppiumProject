@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [CertificationTestSuite]">
   <test thread-count="5" name="Mobile Tests(failed)">
     <classes>
-      <class name="com.edureka.masterProject.SearchUsingImage">
+      <class name="com.edureka.masterProject.SendToBackground">
         <methods>
-          <include name="verifySearchResult"/>
-          <include name="closeApp"/>
-          <include name="login"/>
           <include name="def"/>
-          <include name="uploadJpgAndSearch"/>
-          <include name="logout"/>
-          <include name="copyImage"/>
+          <include name="killApp"/>
+          <include name="terminate"/>
         </methods>
-      </class> <!-- com.edureka.masterProject.SearchUsingImage -->
+      </class> <!-- com.edureka.masterProject.SendToBackground -->
     </classes>
   </test> <!-- Mobile Tests(failed) -->
 </suite> <!-- Failed suite [CertificationTestSuite] -->

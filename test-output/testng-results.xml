@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="CertificationTestSuite" duration-ms="131339" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:22:45 EDT">
+  <suite name="CertificationTestSuite" duration-ms="89607" started-at="2020-04-09T15:47:18 EDT" finished-at="2020-04-09T15:48:48 EDT">
     <groups>
     </groups>
-    <test name="Mobile Tests" duration-ms="131339" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:22:45 EDT">
-      <class name="com.edureka.masterProject.SearchUsingImage">
-        <test-method status="PASS" signature="def()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="def" is-config="true" duration-ms="60452" started-at="2020-04-09T14:20:33 EDT" finished-at="2020-04-09T14:21:34 EDT">
+    <test name="Mobile Tests" duration-ms="89607" started-at="2020-04-09T15:47:18 EDT" finished-at="2020-04-09T15:48:48 EDT">
+      <class name="com.edureka.masterProject.SendToBackground">
+        <test-method status="PASS" signature="def()[pri:0, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="def" is-config="true" duration-ms="55189" started-at="2020-04-09T15:47:18 EDT" finished-at="2020-04-09T15:48:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- def -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="login" duration-ms="20121" started-at="2020-04-09T14:21:34 EDT" finished-at="2020-04-09T14:21:54 EDT">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="login" duration-ms="1258" started-at="2020-04-09T15:48:14 EDT" finished-at="2020-04-09T15:48:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="copyImage()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="copyImage" duration-ms="5436" started-at="2020-04-09T14:21:54 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.login" finished-at="2020-04-09T14:21:59 EDT">
+        <test-method status="PASS" signature="sendToBackground()[pri:2, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="sendToBackground" duration-ms="13514" started-at="2020-04-09T15:48:15 EDT" finished-at="2020-04-09T15:48:28 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copyImage -->
-        <test-method status="PASS" signature="uploadJpgAndSearch()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="uploadJpgAndSearch" duration-ms="13555" started-at="2020-04-09T14:21:59 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.copyImage" finished-at="2020-04-09T14:22:13 EDT">
+        </test-method> <!-- sendToBackground -->
+        <test-method status="PASS" signature="bringToFront()[pri:3, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="bringToFront" duration-ms="11839" started-at="2020-04-09T15:48:28 EDT" finished-at="2020-04-09T15:48:40 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadJpgAndSearch -->
-        <test-method status="PASS" signature="verifySearchResult()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="verifySearchResult" duration-ms="13511" started-at="2020-04-09T14:22:13 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.uploadJpgAndSearch" finished-at="2020-04-09T14:22:26 EDT">
+        </test-method> <!-- bringToFront -->
+        <test-method status="PASS" signature="checkState()[pri:4, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="checkState" duration-ms="369" started-at="2020-04-09T15:48:40 EDT" finished-at="2020-04-09T15:48:41 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchResult -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="logout" duration-ms="16302" started-at="2020-04-09T14:22:26 EDT" depends-on-methods="com.edureka.masterProject.SearchUsingImage.verifySearchResult" finished-at="2020-04-09T14:22:43 EDT">
+        </test-method> <!-- checkState -->
+        <test-method status="PASS" signature="terminate()[pri:5, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="terminate" duration-ms="5665" started-at="2020-04-09T15:48:41 EDT" finished-at="2020-04-09T15:48:46 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.edureka.masterProject.SearchUsingImage@5d76b067]" name="closeApp" is-config="true" duration-ms="1895" started-at="2020-04-09T14:22:43 EDT" finished-at="2020-04-09T14:22:45 EDT">
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="killApp()[pri:0, instance:com.edureka.masterProject.SendToBackground@68bbe345]" name="killApp" is-config="true" duration-ms="1723" started-at="2020-04-09T15:48:46 EDT" finished-at="2020-04-09T15:48:48 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.edureka.masterProject.SearchUsingImage -->
+        </test-method> <!-- killApp -->
+      </class> <!-- com.edureka.masterProject.SendToBackground -->
     </test> <!-- Mobile Tests -->
   </suite> <!-- CertificationTestSuite -->
 </testng-results>

@@ -5,6 +5,7 @@
         <classes>
             <class name="com.edureka.masterProject.AddProductIntoCart" />
             <class name="com.edureka.masterProject.SearchUsingImage" />
+            <class name="com.edureka.masterProject.SendToBackground" />
         </classes>
     </test>
 </suite>
